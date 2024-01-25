@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  font-family: Rubik !important;
+}
+
+.container_1140 {
+  max-width: 1140px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ---------fontWeight---------- */
+
+.fw_300 {
+  font-weight: 300;
+}
+.fw_400 {
+  font-weight: 400;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fw_700 {
+  font-weight: 700;
+}
+.fw_800 {
+  font-weight: 800;
+}
+.fw_900 {
+  font-weight: 900;
+}
+/* -----------Gap--Padding--Margin----------- */
+.gap_10 {
+  gap: 10px;
+}
+.gpa_30 {
+  gap: 30px;
+}
+.py_80_150 {
+  padding: 80px 0 150px 0;
+}
+.gap_18 {
+  gap: 18px;
+}
+.my_20_60 {
+  margin: 20px 0 60px 0;
+}
+.my_30 {
+  margin: 30px 0 30px;
+}
+.ms_20 {
+  margin-left: 20px;
+}
+.gap_20 {
+  gap: 20px;
+}
+.gpa_36 {
+  gap: 36px;
+}
+.gpa_40 {
+  gap: 40px;
+}
+.gap_36 {
+  gap: 36px;
+}
+.ml_36 {
+  margin-left: 36px;
+}
+.mt_20 {
+  margin-top: 20px;
+}
+.mb_50 {
+  margin-bottom: 50px;
+}
+.mt_36 {
+  margin-top: 36px;
+}
+.pt_80 {
+  padding-top: 80px;
+}
+.max_508 {
+  max-width: 508px;
+}
+.my_20_30 {
+  margin: 20px 0 30px;
+}
+.mt_88 {
+  margin-top: 88px;
+}
+/* --- */
+.my_20_50 {
+  margin: 20px 0 50px;
+}
+.py_109_131 {
+  padding: 109px 0 131px;
+}
+.mt_30 {
+  margin-top: 30px;
+}
+.pb_100 {
+  padding-bottom: 100px;
+}
+.pb_63 {
+  padding-bottom: 63px;
+}
+.mt_neg_2 {
+  margin-top: -2px;
+}
+.max_340 {
+  max-width: 340px;
+}
+.mb_10 {
+  margin-bottom: 10px;
+}
+.py_50_103 {
+  padding: 50px 0 103px;
+}
+.my_20_155 {
+  margin: 20px 0 155px;
+}
+.my_30_20 {
+  margin: 30px 0 20px;
+}
+.py_82_126 {
+  padding: 82px 0 126px 0;
+}
+/* ----------------------Nav Bar--------------------- */
+.pointer {
+  cursor: pointer;
+}
+.cntrUl {
+  transition: 350ms linear;
+}
+.cntrUl:hover {
+  color: #0b132a;
+  -webkit-text-stroke: 0.5px;
+}
+.signBtnhv {
+  transition: 350ms linear;
+}
+.signBtnhv:hover {
+  color: #f53838;
+}
+.signUpBtn {
+  border-radius: 50px;
+  padding: 13px 45px;
+  border: 1px solid #f53855;
+  transition: 300ms linear;
+}
+.signUpBtn:hover {
+  background-color: #f53855;
+  color: white;
+}
+/* ----------------------hero section---------------- */
+.getStartBtn {
+  border-radius: 10px;
+  transition: 300ms linear;
+  border: 1px solid #f53855;
+  background-color: #f53838;
+  padding: 17.5px 77.5px;
+  box-shadow: 0 32px 55px 0 rgba(245, 56, 56, 0.35);
+}
+.getStartBtn:hover {
+  color: #f53838;
+  background-color: white;
+}
+.max_555 {
+  max-width: 555px;
+}
+.max_612 {
+  max-width: 612px;
+}
+.overflow_ {
+  transform: translateX(50px);
+  scale: 1;
+}
+/* -----------------------user 90+ ---------------- */
+.userCard {
+  border-radius: 10px;
+  background: #fff;
+  padding: 37px 90px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 52px 80px -5px,
+    rgba(0, 0, 0, 0.04) 5px 8px 26px -16px;
+}
+.line {
+  background-color: #eeeff2;
+  width: 2px !important;
+  height: 125.573px !important;
+}
+/* ----------------------------Choose Your Plan----------------------------- */
+.selectBtn {
+  padding: 13px 63px;
+  border-radius: 50px;
+  border: 2px solid #f53838;
+  background-color: white;
+  transition: 300ms linear;
+}
+.selectBtn:hover {
+  background-color: #f53838;
+  color: white;
+}
+.selectPremium {
+  padding: 13px 63px;
+  border-radius: 50px;
+  border: 2px solid #f53838;
+  background-color: #f53838;
+  transition: 300ms linear;
+}
+.selectPremium:hover {
+  background-color: white;
+  color: #f53838;
+}
+.freePln {
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  background: #fff;
+  padding: 79px 69px 50px 69px;
+  transition: 0.35s ease-in-out;
+}
+.freePln:hover {
+  border: 2px solid #f53838;
+}
+.active {
+  border: 2px solid #f53838;
+}
+.bg_grd {
+  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 40%,
+    rgba(248, 248, 248, 1) 40%
+  );
+}
+/* ----------------------------- Global Network -------------------------- */
+.max_1060 {
+  max-width: 1060px;
+}
+.gap_47 {
+  gap: 47px;
+}
+.max_185 {
+  max-width: 185px;
+}
+/* --------------------------slider ---------------------- */
+.mx_340 {
+  max-width: 340px;
+}
+.sliderBox {
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  max-width: 400px;
+  height: 100%;
+  background: #fff;
+}
+.pb_157 {
+  padding-bottom: 157px;
+}
+.slick-slide {
+  height: inherit !important;
+}
+.slick-slide > div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.leftArrow {
+  border: 2px solid #f53838;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+.rightArrow {
+  border: 2px solid #f53838;
+  cursor: pointer;
+  background-color: #f53838;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+.slick-track {
+  display: flex !important;
+  gap: 40px !important;
+}
+.slick-dots {
+  bottom: -65px !important;
+  width: 40% !important;
+  left: 50px !important;
+  text-align: start !important;
+}
+.slick-dots li button:before {
+  width: 15px !important;
+  height: 15px !important;
+  content: "" !important;
+  border-radius: 50%;
+  background: #dde0e4;
+  opacity: 1 !important;
+  transition: 300ms ease-in-out;
+}
+.slick-dots li.slick-active button:before {
+  width: 45px !important;
+  opacity: 1 !important;
+  border-radius: 10px !important;
+  margin-left: -30px !important;
+  background: #f53838;
+}
+.slick-dots li {
+  margin: 0 5px !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+.slick-current .sliderBox {
+  border: 2px solid #f53838 !important;
+  border-radius: 10px;
+}
+/* ---------------------------------------Subscribe-------------------------- */
+.Subscribe {
+  padding: 58px 70px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: #efefef 8px 11px 86px -16px, #efefef 9px 88px 25px -47px;
+}
+.translatey_50 {
+  transform: translateY(50%);
+}
+.subNowBtn {
+  padding: 17px 65px;
+  border-radius: 10px;
+  border: 1px solid #f53838;
+  transition: 300ms linear;
+  /* box-shadow: 0 32px 55px 0 rgba(245, 56, 56, 0.35); */
+}
+.subNowBtn:hover {
+  background-color: white;
+  color: #f53838;
+}
+/* ---------------------------------------footer-------------------------- */
+.logo {
+  border-radius: 50px;
+  overflow: hidden !important;
+  width: 33px;
+  height: 33px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
