@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("./root.css");
 * {
   padding: 0;
   margin: 0;
@@ -153,7 +154,7 @@
 .signUpBtn {
   border-radius: 50px;
   padding: 13px 45px;
-  border: 1px solid #f53855;
+  border: 1px solid var(--red--);
   transition: 300ms linear;
 }
 .signUpBtn:hover {
@@ -165,7 +166,6 @@
   border-radius: 10px;
   transition: 300ms linear;
   border: 1px solid #f53855;
-  background-color: #f53838;
   padding: 17.5px 77.5px;
   box-shadow: 0 32px 55px 0 rgba(245, 56, 56, 0.35);
 }
@@ -186,53 +186,42 @@
 /* -----------------------user 90+ ---------------- */
 .userCard {
   border-radius: 10px;
-  background: #fff;
   padding: 37px 90px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 52px 80px -5px,
     rgba(0, 0, 0, 0.04) 5px 8px 26px -16px;
 }
 .line {
-  background-color: #eeeff2;
   width: 2px !important;
   height: 125.573px !important;
+}
+.zoomIn {
+  transition: 300ms linear;
+}
+.zoomIn:hover {
+  transform: scale(1.2);
 }
 /* ----------------------------Choose Your Plan----------------------------- */
 .selectBtn {
   padding: 13px 63px;
   border-radius: 50px;
   border: 2px solid #f53838;
-  background-color: white;
   transition: 300ms linear;
 }
 .selectBtn:hover {
   background-color: #f53838;
   color: white;
-}
-.selectPremium {
-  padding: 13px 63px;
-  border-radius: 50px;
-  border: 2px solid #f53838;
-  background-color: #f53838;
-  transition: 300ms linear;
-}
-.selectPremium:hover {
-  background-color: white;
-  color: #f53838;
+  box-shadow: 0 15px 30px 0 rgba(245, 56, 56, 0.35);
 }
 .freePln {
   border-radius: 10px;
   border: 2px solid #ddd;
-  background: #fff;
   padding: 79px 69px 50px 69px;
   transition: 0.35s ease-in-out;
 }
 .freePln:hover {
   border: 2px solid #f53838;
 }
-.active {
-  border: 2px solid #f53838;
-}
-.bg_grd {
+.bg_Subscribe {
   background: rgb(255, 255, 255);
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -261,7 +250,6 @@
   border: 2px solid #ddd;
   max-width: 400px;
   height: 100%;
-  background: #fff;
 }
 .pb_157 {
   padding-bottom: 157px;
@@ -280,14 +268,27 @@
   width: 60px;
   height: 60px;
   border-radius: 50px;
+  transition: 300ms linear;
+}
+.leftArrow:hover {
+  background-color: #f53838 !important;
+}
+.leftArrow:hover path {
+  fill: white !important;
 }
 .rightArrow {
   border: 2px solid #f53838;
   cursor: pointer;
-  background-color: #f53838;
   width: 60px;
   height: 60px;
   border-radius: 50px;
+  transition: 300ms linear;
+}
+.rightArrow:hover {
+  background-color: #f53838 !important;
+}
+.rightArrow:hover path {
+  fill: white !important;
 }
 .slick-track {
   display: flex !important;
@@ -321,6 +322,8 @@
   height: 15px !important;
 }
 .slick-current .sliderBox {
+  box-shadow: rgba(50, 50, 93, 0.25) 12px 44px 108px -64px,
+    rgba(0, 0, 0, 0.3) 0px 30px 2px -29px;
   border: 2px solid #f53838 !important;
   border-radius: 10px;
 }
@@ -328,7 +331,6 @@
 .Subscribe {
   padding: 58px 70px;
   border-radius: 10px;
-  background: #fff;
   box-shadow: #efefef 8px 11px 86px -16px, #efefef 9px 88px 25px -47px;
 }
 .translatey_50 {
@@ -337,9 +339,9 @@
 .subNowBtn {
   padding: 17px 65px;
   border-radius: 10px;
-  border: 1px solid #f53838;
+  border: 1px solid;
   transition: 300ms linear;
-  /* box-shadow: 0 32px 55px 0 rgba(245, 56, 56, 0.35); */
+  box-shadow: 0 32px 55px 0 rgba(245, 56, 56, 0.35);
 }
 .subNowBtn:hover {
   background-color: white;

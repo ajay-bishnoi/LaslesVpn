@@ -16,6 +16,24 @@ $(".sliderParent").slick({
   slidesToScroll: 1,
   responsive: [
     {
+      breakpoint: 1920.92,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 1440.92,
+      settings: {
+        slidesToShow: 2.99,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
       breakpoint: 992,
       settings: {
         slidesToShow: 2,
